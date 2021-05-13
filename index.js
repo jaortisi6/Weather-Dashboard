@@ -90,7 +90,7 @@ function getResponseWeather(cityName) {
     var CoordLat = response.coord.lat;
 
     var queryURL2 =
-      "https://api.openweathermap.org/data/2.5/uvi?appid=" +
+      "https://api.openweathermap.org/data/2.5/onecall?&lat=&lon=&exclude=&appid=" +
       key +
       "&lat=" +
       CoordLat +
@@ -114,7 +114,7 @@ function getResponseWeather(cityName) {
       } else if (responseuv.value > 7 && responseuv.value <= 10) {
         cityUV.attr("class", "red");
       } else {
-        cityUV.attr("class", "purple");
+        cityUV.attr("class", "blue");
       }
     });
     var queryURL3 =
