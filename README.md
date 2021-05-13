@@ -6,7 +6,7 @@ This dashboard was created using the Open Weather Map API. A user can input a ci
 
 ## Screenshot
 
-![Weather Dashboard Screenshot] (/assets/Screenshot1.PNG)
+![Weather Dashboard Screenshot] (./assets/Screenshot1.PNG)
 
 ## License
 
